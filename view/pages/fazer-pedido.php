@@ -259,11 +259,11 @@ include_once "../../config/conexao.php";
                 }
             ?>
         </div>
-        <footer class="container-fluid text-center bg-dark text-light">
+        <footer class="container-fluid text-center bg-dark text-light" >
             <div class="container">
-                <h6 class="pt-3">Cafeteria Gourmet</h6>
-                <p>O prazer gourmet à sua porta</p>
-                <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Equipe de Trabalho - Alunos PIT 2 | Projeto para obtenção da nota do PIT 2</p>
+                <h6 class="pt-3">Cafeteria Code</h6>
+                <p>O prazer do Café Gourmet a um clique</p>
+                <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Alunos do Curso de Ciência da Computação da Uni Cruzeiro do Sul | Projeto para obtenção da nota do PIT 2</p>
             </div>
         </footer>
         <script type="text/javascript" src="../../assets/js/bootstrap.bundle.min.js"></script>

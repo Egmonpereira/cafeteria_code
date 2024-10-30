@@ -65,7 +65,7 @@
         </div>
     </nav>
     <div class="container-expand">
-        <img src="../../assets/img/banner-fazer-pedido.png" class="img-fluid" alt="..." style="width:100%;">
+        <img src="../../assets/img/banner.png" class="img-fluid" alt="..." style="width:100%;">
     </div>
     <div class="container text-center">
         <h4 class="pt-4">Contato</h4>
@@ -76,13 +76,13 @@
       
     </div>
   
-    <footer class="footer fixed-bottom text-center bg-dark text-light mt-4">
-        <div class="container">
-        <h6 class="pt-3">Cafeteria Gourmet</h6>
-        <p>O prazer gourmet à sua porta</p>
-        <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por André Serrano | Projeto para obtenção da nota do PIT 2</p>
-        </div>
-    </footer>
+    <footer class="container-fluid text-center bg-dark text-light" >
+            <div class="container">
+                <h6 class="pt-3">Cafeteria Code</h6>
+                <p>O prazer do Café Gourmet a um clique</p>
+                <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Alunos do Curso de Ciência da Computação da Uni Cruzeiro do Sul | Projeto para obtenção da nota do PIT 2</p>
+            </div>
+        </footer>
     <script type="text/javascript" src="../../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
