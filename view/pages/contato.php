@@ -76,6 +76,22 @@
         <p style="font-size: 13px;">RGM: 27464075</p-->
         <p style="font-size: 13px;">e-mail: <a mailto="code_coffee@code_coffee.com">code_coffee@code_coffee.com</a></p>
         <p style="font-size: 13px;"><a target="_blank" href="https://wa.me/5531999901515">Whatsapp</a></p>
+        <p style="font-size: 18px;">Integrantes do grupo em ordem alfabética:</p>
+        <p style="font-size: 13px;">Abner Anacleto Marrocos - RGM: 27864669</p>
+        <p style="font-size: 13px;">André Aguiar Dias Serrano - RGM: 27464075</p>
+        <p style="font-size: 13px;">Brenda Letícia Martins Santana - RGM: 30341124</p>
+        <p style="font-size: 13px;">Edson França de Morais - RGM: 27963659</p>
+        <p style="font-size: 13px;">Egmon Pereira - RGM: 30337356</p>
+        <p style="font-size: 13px;">Felipe do Carmo Medeiros - RGM: 27444252</p>
+        <p style="font-size: 13px;">Gabriel Reis Oliveira - RGM: 28383605</p>
+        <p style="font-size: 13px;">Hermes Barbosa Filipe - RGM: 27707504</p>
+        <p style="font-size: 13px;">Iury Alexander Berenda - RGM: 27442870</p>
+        <p style="font-size: 13px;">João Gomes Romão Neto - RGM: 28394089</p>
+        <p style="font-size: 13px;">Kenia Regia Anasenko Marcelino - RGM: 28804601</p>
+        <p style="font-size: 13px;">Matheus Sena Rosa - RGM: 27756033</p>
+        <p style="font-size: 13px;">Paulo Vieira Lima - RGM: 27271706</p>
+        <p style="font-size: 13px;">Samuel Alves Rodrigues - RGM: 27606732</p>
+        <p style="font-size: 13px;">Vinícius Martins de Carvalho - RGM: 27466591</p>
     </div>
 
     <footer>
