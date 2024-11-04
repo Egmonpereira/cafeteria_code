@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap-icons.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/estilo.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/footer.css" media="screen" />
     <link href="https://fonts.cdnfonts.com/css/inknut-antiqua" rel="stylesheet">
 </head>
 
@@ -27,7 +28,7 @@
         <div class="container">
             <!--<a class="navbar-brand" href="#">Navbar</a>-->
             <a class="navbar-brand" href="#">
-                <h1 class="m-0"><img src="../../assets/img/logo.png" class="d-block" alt="Logo da Cafeteria Gourmet"></h1>
+                <h1 class="m-0"><img src="../../assets/img/logo.png" class="d-block" alt="Logo da Cafeteria Code"></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -164,15 +165,14 @@
   </div>
 </div>
 
-
-
-    <footer class="container-fluid text-center bg-dark text-light">
-        <div class="container">
-        <h6 class="pt-3">Cafeteria Gourmet</h6>
-        <p>O prazer gourmet à sua porta</p>
-        <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por André Serrano | Projeto para obtenção da nota do PIT 2</p>
+<footer>
+        <div class="rodape">
+            <?php
+                include "footer.php";
+            ?>
         </div>
     </footer>
+    
     <script type="text/javascript" src="../../assets/js/bootstrap.bundle.min.js"></script>
    
     </script>

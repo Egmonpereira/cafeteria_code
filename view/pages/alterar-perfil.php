@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap-icons.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/footer.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/estilo.css" media="screen" />
     <link href="https://fonts.cdnfonts.com/css/inknut-antiqua" rel="stylesheet">
 </head>
@@ -136,16 +137,14 @@
         
     </div>
 
-
-
-    <footer class="container-fluid text-center bg-dark text-light" >
-        <div class="container">
-            <h6 class="pt-3">Cafeteria Gourmet</h6>
-        <p>O prazer gourmet à sua porta</p>
-        <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por André Serrano | Projeto para obtenção da nota do PIT 2</p>
+    <footer>
+        <div class="rodape">
+            <?php
+                include "footer.php";
+            ?>
         </div>
-        
     </footer>
+    
     <script src="../../assets/js/script.js" type="module"></script>
     <script type="text/javascript" src="../../assets/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

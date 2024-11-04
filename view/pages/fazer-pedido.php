@@ -21,8 +21,80 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap-icons.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/footer.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/estilo.css" media="screen" />
     <link href="https://fonts.cdnfonts.com/css/inknut-antiqua" rel="stylesheet">
+
+        <!--CSS COR FUTURISTA -->
+        <style>
+        /* CSS */
+        .button-85 {
+        padding: 0.6em 2em;
+        border: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        }
+
+        .button-85:before {
+        content: "";
+        background: linear-gradient(
+            45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000
+        );
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing-button-85 20s linear infinite;
+        transition: opacity 0.3s ease-in-out;
+        border-radius: 10px;
+        }
+
+        @keyframes glowing-button-85 {
+        0% {
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+        }
+
+        .button-85:after {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #222;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+        }
+        </style>
 </head>
 
 <body>
@@ -30,7 +102,7 @@
         <div class="container">
             <!--<a class="navbar-brand" href="#">Navbar</a>-->
             <a class="navbar-brand" href="fazer-pedido.php">
-                <h1 class="m-0"><img src="../../assets/img/logo.png" class="d-block" alt="Logo da Cafeteria Gourmet"></h1>
+                <h1 class="m-0"><img src="../../assets/img/logo.png" class="d-block" alt="Logo da Cafeteria Code"></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -78,7 +150,7 @@
         </div>
     </nav>
     <div class="container-expand">
-        <img src="../../assets/img/banner-fazer-pedido.png" class="img-fluid" alt="..." style="width:100%;">
+        <img src="../../assets/img/banner.png" class="img-fluid" alt="..." style="width:100%;">
     </div>
     <div class="container">
         <h4 class="pt-4">Faça seu pedido</h4>
@@ -124,8 +196,13 @@ if($buscaProdutos == false){
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
                         </select>
-                        <button onclick="addCarrinho<?php echo $contador;?>(<?php echo $produtos['id_produto']?>)" class="btn btn-success rounded-end-3" name="bt_comprar"><i class="bi bi-cart-fill fs-6" style="margin-right:7px;"></i>Comprar</button>
+                        <button  class="button-85" style="button-85" onclick="addCarrinho<?php echo $contador;?>(<?php echo $produtos['id_produto']?>)" class="btn btn-success rounded-end-3" name="bt_comprar"><i class="bi bi-cart-fill fs-6" style="margin-right:7px;"></i>Comprar</button>
                 
                     </div>
                 </div>
@@ -228,14 +305,14 @@ alert("Produto adicionado/atualizado no carrinho");
 ?>
 </div>
 
-
-    <footer class="container-fluid text-center bg-dark text-light">
-        <div class="container">
-        <h6 class="pt-3">Cafeteria Gourmet</h6>
-        <p>O prazer gourmet à sua porta</p>
-        <p class="card-text pb-3" style="font-size: 10px;">2024 <i class="bi bi-c-circle"></i> Desenvolvido por André Serrano | Projeto para obtenção da nota do PIT 2</p>
+<footer>
+        <div class="rodape">
+            <?php
+                include "footer.php";
+            ?>
         </div>
     </footer>
+    
     <script type="text/javascript" src="../../assets/js/bootstrap.bundle.min.js"></script>
     
     
