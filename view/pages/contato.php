@@ -71,10 +71,11 @@
     <div class="container text-center">
         <h4 class="pt-4">Contato</h4>
         <h6 class="pb-3">Informações de contato</h6>
-        <p style="font-size: 13px;">Aluno: André Aguiar Dias Serrano</p>
+        <!--p style="font-size: 13px;">Aluno: André Aguiar Dias Serrano</p>
         <p style="font-size: 13px;">E-mail: andre.serrano@cs.unicid.edu.br</p>
-        <p style="font-size: 13px;">RGM: 27464075</p>
-      
+        <p style="font-size: 13px;">RGM: 27464075</p-->
+        <p style="font-size: 13px;">e-mail: <a mailto="code_coffee@code_coffee.com">code_coffee@code_coffee.com</a></p>
+        <p style="font-size: 13px;"><a target="_blank" href="https://wa.me/5531999901515">Whatsapp</a></p>
     </div>
 
     <footer>
