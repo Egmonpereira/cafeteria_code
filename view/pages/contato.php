@@ -90,6 +90,7 @@
         <p style="font-size: 13px;">Kenia Regia Anasenko Marcelino - RGM: 28804601</p>
         <p style="font-size: 13px;">Matheus Sena Rosa - RGM: 27756033</p>
         <p style="font-size: 13px;">Paulo Vieira Lima - RGM: 27271706</p>
+        <p style="font-size: 13px;">Pedro Henrique Silva Barros - RGM: 27275922</p>
         <p style="font-size: 13px;">Samuel Alves Rodrigues - RGM: 27606732</p>
         <p style="font-size: 13px;">Vinícius Martins de Carvalho - RGM: 27466591</p>
     </div>
