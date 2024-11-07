@@ -81,6 +81,7 @@
         <p style="font-size: 13px;">André Aguiar Dias Serrano - RGM: 27464075</p>
         <p style="font-size: 13px;">Brenda Letícia Martins Santana - RGM: 30341124</p>
         <p style="font-size: 13px;">Edson França de Morais - RGM: 27963659</p>
+        <p style="font-size: 13px;">Eduardo Maggiorini - RGM: 27328252</p>
         <p style="font-size: 13px;">Egmon Pereira - RGM: 30337356</p>
         <p style="font-size: 13px;">Felipe do Carmo Medeiros - RGM: 27444252</p>
         <p style="font-size: 13px;">Gabriel Reis Oliveira - RGM: 28383605</p>
